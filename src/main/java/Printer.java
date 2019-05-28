@@ -1,27 +1,26 @@
 public class Printer {
-    private int numOfSheetsPaperLeft;
-    private int numOfCopies;
-    private int numOfPages;
+    private int paper;
+    private int tonerVolume;
 
-    public Printer(int numOfSheetsPaperLeft, int numOfCopies, int numOfPages) {
-        this.numOfSheetsPaperLeft = numOfSheetsPaperLeft;
-        this.numOfCopies = numOfCopies;
-        this.numOfPages = numOfPages;
-    }
 
-    public int getNumOfSheetsPaperLeft() {
-        return this.numOfSheetsPaperLeft;
-    }
+//    public Printer(int paper, int tonerVolume) {
+//        this.paper = paper;
+//        this.tonerVolume = tonerVolume;
+//
+//    }
+//
+//    public int getPaper() {
+//        return this.paper;
+//    }
+//   public boolean print(int pages , int copies){
+//        int totalPages = pages *copies;
+//        if(paper >totalPages){
+//            paper -= totalPages;
+//            tonerVolume -= totalPages;
+//        }
+   }
+   public int getPaper(){
 
-    public int getNumOfCopies() {
-        return this.numOfCopies;
-    }
+   }
 
-    public int getNumOfPages() {
-        return this.numOfPages;
-    }
-
-    public int NumOfPagesAndCopied() {
-        return (this.numOfPages - this.numOfCopies);
-    }
 }
